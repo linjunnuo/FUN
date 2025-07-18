@@ -165,10 +165,3 @@ def FederatedSNNFF_experiment(args):
     logging.warning("End Ploting!") 
 
  
-if __name__ == "__main__":
-    
-    args = load_arg()
-    
-    # writer = SummaryWriter(comment=f"LR_{config['lr']}_EPOCH_{config['epoch']}_FederatedSNNv2_{5}")
-    FederatedSNNFF_experiment(args) 
-    # FederatedCNN_experiment(4)
